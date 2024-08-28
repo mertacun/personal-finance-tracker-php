@@ -1,4 +1,6 @@
 <x-guest-layout>
+@section('title', 'ExpenseEye - Profile')
+
     <form method="POST" action="{{ route('profile.update') }}">
         @csrf
         @method('PATCH')

@@ -118,7 +118,7 @@
                 <form id='form' action="{{ route('transactions.store') }}" method="POST">
     @csrf
     <input type="hidden" id="transaction_id" name="transaction_id">
-    <input type="text" id="amount" name="amount" placeholder='Amount' required><br>
+    <input type="number" id="amount" name="amount" placeholder='Amount' required min="0" step="0.01"><br>
     <input type="text" id='place' name='description' placeholder="Place of Spend" required><br>
     <label for="category">Category:</label>
     <div class="category-container">
@@ -276,6 +276,9 @@
                     alert('Failed to save transaction');
                 });
             });
+
+            const today = new Date().toISOString().split('T')[0];
+        document.getElementById('date').setAttribute('max', today);
 
             document.getElementById('add-category').addEventListener('click', function() {
                 const categoryName = prompt("Enter the new category name:");
