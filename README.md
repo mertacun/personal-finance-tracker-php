@@ -7,6 +7,8 @@ The **Personal Finance Tracker** is a web application built with Laravel and Bla
 
 **[Live Demo](https://personal-finance-tracker-azure.vercel.app)** - This demo is built with HTML, CSS, and JavaScript but shares the same styling as the full application.
 
+![Screenshot of Personal Finance Tracker](Personal-Finance-Tracker.png)
+
 ## Features
 
 1. **User Authentication:**
