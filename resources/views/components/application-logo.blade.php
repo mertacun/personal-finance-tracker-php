@@ -1,0 +1,1 @@
+<img src="{{ asset('img/logo.png') }}" alt="ExpenseEye Logo" class="{{ $attributes->merge(['class' => 'w-20 h-20'])->get('class') }}">
