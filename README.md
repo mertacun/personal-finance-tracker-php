@@ -5,6 +5,8 @@
 
 The **Personal Finance Tracker** is a web application built with Laravel and Blade templates, designed to help users manage and track their personal finances. The application supports user authentication (using Laravel Breeze) and integrates with a MySQL database for persistent storage of expense data.
 
+**[Live Demo](https://personal-finance-tracker-azure.vercel.app)** - This demo is built with HTML, CSS, and JavaScript but shares the same styling as the full application.
+
 ## Features
 
 1. **User Authentication:**
